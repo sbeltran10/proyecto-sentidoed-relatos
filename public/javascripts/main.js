@@ -25,7 +25,7 @@ function init() {
     containerDiv.append(titulo);
     containerDiv.append(imagenes2);
     containerDiv.append(descripcion);
-    containerDiv.append($('<a id="abajo-inicio" href="#" class="arrow down">Abajo</a>'));
+    containerDiv.append($('<a id="abajo-inicio" href="#" class="arrow down"></a>'));
 
     $("#main").append(containerDiv);
 
@@ -47,10 +47,10 @@ function loadChoice(numChoice) {
         var descripcion = $("<div class ='row descripcion'><p>" + choice.descripcion + "</p></div>");
 
         var rowFlechas = $("<div class ='row'></div>");
-        var arrowLeft = $('<div class="col-md-1"><a id="izquierda" href="#" class="arrow left">Izquierda</a></div>');
+        var arrowLeft = $('<div class="col-md-1"><a id="izquierda" href="#" class="arrow left"></a></div>');
         var textoLeft = $('<div class="col-md-5 descripcion-opcion-izquierda"><p>' + choice.opcion1 + '</p></div>');
         var textoRight = $('<div class="col-md-5 descripcion-opcion-derecha"><p>' + choice.opcion2 + '</p></div>');
-        var arrowRight = $('<div class="col-md-1"><a id="derecha" href="#" class="arrow right">Derecha</a></div>');
+        var arrowRight = $('<div class="col-md-1"><a id="derecha" href="#" class="arrow right"></a></div>');
 
         rowFlechas.append(arrowLeft);
         rowFlechas.append(textoLeft);
@@ -102,7 +102,7 @@ function loadEnding(numEnding) {
 
         $("#current").replaceWith(containerDiv);
 
-        $("#arriba").click(function (e) { e.preventDefault(); loadChoice(0); return false; });
+        $("#arriba").click(function (e) { e.preventDefault(); load(); return false; });
 
     })
 }

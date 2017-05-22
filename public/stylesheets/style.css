@@ -1,26 +1,27 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/dark-background.jpg');
+    background-size: cover;
+
+}
+
 #main
 {         
     background-image: url('../images/dark-background.jpg');
     background-size: cover;
-    position:fixed;
-    top:0px;
-    bottom:0px;
-    left:0px;
-    right:0px;
-    z-index: -1
 }
 
 #footer-text{
-  margin: 1em;
   bottom:0px;
   right:0px;
   color: grey;
   font-size: 0.9em;
   position: fixed;
-  bottom:0px;
   height:1em;
   width:100%;
-  text-align: right
+  text-align: right;
+  margin: 1em
 
 }
 
@@ -31,10 +32,8 @@
 
 .rounded-image{
   border-radius: 50%;
-  height: auto; 
-  width: auto; 
-  max-width: 70%; 
-  max-height: 70%;
+  max-width: 60%; 
+  max-height: 60%;
 }
 
 .titulo{
