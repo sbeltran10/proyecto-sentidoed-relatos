@@ -1,37 +1,42 @@
 [
     {
-        "titulo":"Llegada a casa sano y salvo",
+        "titulo":"De vuelta sano",
         "imagen":"relatos-santiago.png",
-        "descripcion":"El amigo de Santiago lo deja en la casa junto a su carro y luego se va en taxi"
+        "descripcion":"El amigo de Santiago lo deja en la casa junto a su carro, como el amigo no había tomado entonces no ocurre ninguna eventualidad"
     },
     {
-        "titulo":"",
+        "titulo":"\"No sobrevivira\"",
         "imagen":"relatos-santiago.png",
-        "descripcion":""
+        "descripcion":"Santiago es entregado a la justicia por el crimen que cometió, pese a los esfuerzos del Juez, Santiago es condenado a 10 años de cárcel. Durante este periodo Santiago sufre de varios maltratos los cuales le dejan un trauma de por vida."
     },
     {
-        "titulo":"",
-        "imagen":"relatos-santiago.png",
-        "descripcion":""
-    },
-    {
-        "titulo":"",
-        "imagen":"relatos-santiago.png",
-        "descripcion":""
-    },
-    {
-        "titulo":"",
+        "titulo":"Traición",
         "imagen":"relatos-jose.png",
-        "descripcion":""
+        "descripcion":"Ya que José se negó a entregarse en vez de Santiago, Mauricio ve esto como una traición y despide a José. Santiago es entregado a la justicia por el crimen que cometió, pese a los esfuerzos del Juez, Santiago es condenado a 10 años de cárcel. Durante este periodo Santiago sufre de varios maltratos los cuales le dejan un trauma de por vida."
     },
     {
-        "titulo":"",
+        "titulo":"Falso testimonio",
         "imagen":"relatos-santiago.png",
-        "descripcion":""
+        "descripcion":"El fiscal entrega a Santiago a la justicia e inicia un proceso penal en contra de José, a Mauricio y el abogado por haber dado un falso testimonio."
     },
     {
-        "titulo":"",
+        "titulo":"Derrumbe hogar",
+        "imagen":"relatos-santiago.png",
+        "descripcion":"Se derrumba el acuerdo que se tenia con el fiscal. El fiscal entrega a Santiago a la justicia e inicia un proceso penal en contra de José, a Mauricio y el abogado por haber dado un falso testimonio. Santiago es herido por la espalda cuando se esta subiendo al auto de policía, el agresor es el esposo de la mujer atropellada"
+    },
+    {
+        "titulo":"Quiebra",
         "imagen":"relatos-jose.png",
-        "descripcion":""
+        "descripcion":"José es entregado a la justicia por el crimen que no cometió. José es herido por la espalda cuando se está subiendo al auto de policía, el agresor es el esposo de la mujer atropellada. Luego de esto Mauricio queda en la quiebra y debe vender su casa y cambiar u estilo de vida totalmente."
+    },
+    {
+        "titulo":"Venganza obtenida",
+        "imagen":"relatos-santiago.png",
+        "descripcion":"El fiscal va a entregar Santiago a la justicia, cuando se dispone a subirlo al carro de policía, un hombre armado con un martillo lo asesina con varios golpes en la cabeza, este hombre es el esposo de la mujer atropellada."
+    },
+    {
+        "titulo":"¿Venganza obtenida?",
+        "imagen":"relatos-jose.png",
+        "descripcion":"El fiscal va a entregar a José a la justicia, cuando se dispone a subirlo al carro de policía, un hombre armado con un martillo lo asesina con varios golpes en la cabeza, este hombre es el esposo de la mujer atropellada."
     }
 ]

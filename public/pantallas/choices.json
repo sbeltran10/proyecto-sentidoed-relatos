@@ -1,56 +1,65 @@
 [
     {
-        "titulo":"Volver a casa en el carro",
-        "descripcion":"Santiago se fue en carro a beber a un bar de la ciudad, luego de un par de tragos, decide que es hora de irse",
+        "titulo":"Viaje al bar",
+        "descripcion":"Santiago se fue en carro a beber a un bar de la ciudad, luego de un par de tragos, decide que es hora de irse.",
         "imagenes":["relatos-santiago.png"],
-        "opcion2":"Santiago ignora el hecho de que está borracho y decide conducir el mismo",
-        "opcion1":"Santiago le pide el favor a un amigo que esta sobrio que conduzca",
+        "opcion1":"Santiago ignora el hecho de que está borracho y decide conducir el mismo.",
+        "opcion2":"Santiago le pide el favor a un amigo que esta sobrio que conduzca.",
         "redir1":"c1",
         "redir2":"e0"
     },
     {
-        "titulo":"Atropellar",
-        "descripcion":"",
-        "imagenes":["relatos-santiago.png","relatos-jose.png","relatos-osmar.png","relatos-mauricio.png"],
-        "opcion1":"",
-        "opcion2":"",
+        "titulo":"\"Pelotudo\"",
+        "descripcion":"Santiago atropello a una mujer embarazada cuando volvía borracho en el carro. Santiago huyo de la escena, pero unas cámaras lograron identificar el auto, ahora su padre Mauricio debe decidir qué hacer con ayuda de su abogado.",
+        "imagenes":["relatos-santiago.png","relatos-osmar.png","relatos-mauricio.png"],
+        "opcion1":"Mauricio le propone a su jardinero José que se entregue en vez de Santiago.",
+        "opcion2":"Mauricio decide entregar a Santiago.",
         "redir1":"c2",
         "redir2":"e1"
     },
     {
-        "titulo":"Entregar Jose",
-        "descripcion":"",
-        "imagenes":["relatos-jose.png","relatos-osmar.png","relatos-mauricio.png","relatos-fiscal.png"],
-        "opcion1":"",
-        "opcion2":"",
+        "titulo":"Reemplazo",
+        "descripcion":"Mauricio le ofrece una suma de dinero enorme a José para que se entregue por Santiago, además de esto, Mauricio le asegura a José que saldrá libre de prisión en poco tiempo gracias a su abogado.",
+        "imagenes":["relatos-jose.png","relatos-osmar.png","relatos-mauricio.png"],
+        "opcion1":"José rechaza la oferta de Mauricio.",
+        "opcion2":"José acepta la oferta de Mauricio.",
         "redir1":"e2",
         "redir2":"c3"
     },
     {
-        "titulo":"Trato fiscal",
-        "descripcion":"",
-        "imagenes":["relatos-jose.png","relatos-mauricio.png"],
-        "opcion1":"",
-        "opcion2":"",
+        "titulo":"Coartada",
+        "descripcion":"El abogado se inventa una coartada para inculpar a José, poco después llega un fiscal para evaluar el caso. Gracias a una inconsistencia en la historia de José, el fiscal se da cuenta que José no cometió el crimen, por este motivo el abogado de Mauricio inicia una negociación con el fiscal. El abogado le dice a Mauricio que puede llegar a un acuerdo con el fiscal pero que va a necesitar una suma de dinero grande para esto.",
+        "imagenes":["relatos-jose.png","relatos-mauricio.png","relatos-osmar.png","relatos-fiscal.png"],
+        "opcion1":"Mauricio rechaza el acuerdo.",
+        "opcion2":"Mauricio acepta el acuerdo bajo los nuevos términos que propone el abogado.",
         "redir1":"e3",
         "redir2":"c4"
     },
     {
-        "titulo":"Demanda Jose",
-        "descripcion":"",
-        "imagenes":["relatos-jose.png","relatos-osmar.png","relatos-mauricio.png","relatos-fiscal.png"],
-        "opcion1":"",
-        "opcion2":"",
+        "titulo":"Apartamento",
+        "descripcion":"El abogado se va a hablar con el fiscal para cerrar el acuerdo, mientras esto ocurre, José que alcanzo a oír la conversación entre Mauricio y el abogado, ahora quiere que Mauricio también le regale un apartamento adicional al dinero inicial ya que no le parece justo la gran cantidad de dinero que Mauricio le va a dar al abogado. Luego de esto el abogado le urge a Mauricio que se apure ya que el tiempo es de esencia.",
+        "imagenes":["relatos-mauricio.png","relatos-jose.png"],
+        "opcion1":"Mauricio accede a la demanda de José.",
+        "opcion2":"Mauricio no acccede a la demanda de José.",
         "redir1":"c5",
         "redir2":"e4"
     },
     {
-        "titulo":"Negarse por primera vez",
-        "descripcion":"",
+        "titulo":"\"Buitres\"",
+        "descripcion":"Mauricio, José, el fiscal y el abogado se sientan a discutir el nuevo acuerdo, el fiscal le dice a Mauricio que va a necesitar un dinero adicional para la operación, Mauricio le dice que tome ese dinero de las sumas de dinero que fueron ya acordadas, el fiscal le responde que desconoce de que sumas está hablando, en este momento Mauricio se da cuenta que su abogado lo había engañado.",
+        "imagenes":["relatos-jose.png","relatos-mauricio.png","relatos-osmar.png","relatos-fiscal.png"],
+        "opcion1":"A pesar de ver que los demás lo están “destripando”, Mauricio accede a continuar con el acuerdo.",
+        "opcion2":"Enfurecido, Mauricio decide cancelar el trato con todos los involucrados y le urge a Santiago que se entregue.",
+        "redir1":"e5",
+        "redir2":"c6"
+    },
+    {
+        "titulo":"Propuesta superadora",
+        "descripcion":"La mujer de Mauricio le insiste en que acceda al trato, este se niega varias veces. Luego de hablar con las demás personas, la mujer de Mauricio y el abogado le proponen un último acuerdo, él lo rechaza y dice que solo va a acceder si se reparten la suma que le iba a dar originalmente al abogado.",
         "imagenes":["relatos-osmar.png","relatos-mauricio.png","relatos-senora.png"],
-        "opcion1":"",
-        "opcion2":"",
-        "redir1":"e6",
-        "redir2":"e5"
+        "opcion1":"El abogado, José y el fiscal acceden a la proposición de Mauricio.",
+        "opcion2":"El abogado, José y el fiscal se niegan a la proposición de Mauricio.",
+        "redir1":"e7",
+        "redir2":"e6"
     }
 ]

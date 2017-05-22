@@ -48,25 +48,28 @@ body{
 .descripcion{
   margin: 1em;
   color: white;
-  font-size: 2em;
+  font-size: 1.7em;
+  font-family: 'Inconsolata'
 }
 
 .descripcion-opcion-izquierda{
   margin-top:10%; 
   color: white;
-  font-size: 1.7em;
-  text-align: left
+  font-size: 1.5em;
+  text-align: left;
+  font-family: 'Inconsolata'
 }
 
 .descripcion-opcion-derecha{
   margin-top:10%; 
   color: white;
-  font-size: 1.7em;
-  text-align: right
+  font-size: 1.5em;
+  text-align: right;
+  font-family: 'Inconsolata'
 }
 
 .reiniciar{
-  color: white;
+  color: grey;
   font-size: 2em;
   text-align: center
 }
@@ -112,6 +115,7 @@ body{
 .down {
   -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
   border-top:2em solid white;
+  margin:2em auto;
 
 }
 
