@@ -1,0 +1,56 @@
+[
+    {
+        "titulo":"Volver a casa en el carro",
+        "descripcion":"Santiago se fue en carro a beber a un bar de la ciudad, luego de un par de tragos, decide que es hora de irse",
+        "imagenes":["relatos-santiago.png"],
+        "opcion2":"Santiago ignora el hecho de que está borracho y decide conducir el mismo",
+        "opcion1":"Santiago le pide el favor a un amigo que esta sobrio que conduzca",
+        "redir1":"c1",
+        "redir2":"e0"
+    },
+    {
+        "titulo":"Atropellar",
+        "descripcion":"",
+        "imagenes":["relatos-santiago.png","relatos-jose.png","relatos-osmar.png","relatos-mauricio.png"],
+        "opcion1":"",
+        "opcion2":"",
+        "redir1":"c2",
+        "redir2":"e1"
+    },
+    {
+        "titulo":"Entregar Jose",
+        "descripcion":"",
+        "imagenes":["relatos-jose.png","relatos-osmar.png","relatos-mauricio.png","relatos-fiscal.png"],
+        "opcion1":"",
+        "opcion2":"",
+        "redir1":"e2",
+        "redir2":"c3"
+    },
+    {
+        "titulo":"Trato fiscal",
+        "descripcion":"",
+        "imagenes":["relatos-jose.png","relatos-mauricio.png"],
+        "opcion1":"",
+        "opcion2":"",
+        "redir1":"e3",
+        "redir2":"c4"
+    },
+    {
+        "titulo":"Demanda Jose",
+        "descripcion":"",
+        "imagenes":["relatos-jose.png","relatos-osmar.png","relatos-mauricio.png","relatos-fiscal.png"],
+        "opcion1":"",
+        "opcion2":"",
+        "redir1":"c5",
+        "redir2":"e4"
+    },
+    {
+        "titulo":"Negarse por primera vez",
+        "descripcion":"",
+        "imagenes":["relatos-osmar.png","relatos-mauricio.png","relatos-senora.png"],
+        "opcion1":"",
+        "opcion2":"",
+        "redir1":"e6",
+        "redir2":"e5"
+    }
+]

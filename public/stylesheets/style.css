@@ -1,0 +1,126 @@
+#main
+{         
+    background-image: url('../images/dark-background.jpg');
+    background-size: cover;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index: -1
+}
+
+#footer-text{
+  margin: 1em;
+  bottom:0px;
+  right:0px;
+  color: grey;
+  font-size: 0.9em;
+  position: fixed;
+  bottom:0px;
+  height:1em;
+  width:100%;
+  text-align: right
+
+}
+
+.image-relato{
+  margin: 1em;
+  text-align: center
+}
+
+.rounded-image{
+  border-radius: 50%;
+  height: auto; 
+  width: auto; 
+  max-width: 15em; 
+  max-height: 15em;
+}
+
+.titulo{
+  text-align: center;
+  font-size: 4em;
+  margin: 1em;
+  color: rgb(220,81,69);
+  font-family: 'Bangers'
+}
+
+.descripcion{
+  margin: 1em;
+  color: white;
+  font-size: 2em;
+}
+
+.descripcion-opcion-izquierda{
+  margin-top:10%; 
+  color: white;
+  font-size: 1.7em;
+  text-align: left
+}
+
+.descripcion-opcion-derecha{
+  margin-top:10%; 
+  color: white;
+  font-size: 1.7em;
+  text-align: right
+}
+
+.reiniciar{
+  color: white;
+  font-size: 2em;
+  text-align: center
+}
+
+@-webkit-keyframes uparrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(-0.4em); opacity: 0.9 }
+}
+@-webkit-keyframes downarrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.4 }
+  100% { -webkit-transform: translateY(0.4em); opacity: 0.9 }
+}
+
+@-webkit-keyframes leftarrow {
+  0% { -webkit-transform: translateX(0) rotate(270deg); opacity: 0.4;}
+  100% { -webkit-transform: translateX(0.4em)  rotate(270deg); opacity: 0.9;}
+}
+
+@-webkit-keyframes rightarrow {
+  0% { -webkit-transform: translateX(0) rotate(270deg); opacity: 0.4 }
+  100% { -webkit-transform: translateX(-0.4em) rotate(270deg);; opacity: 0.9 }
+}
+
+.arrow {
+  border-color:transparent;
+  border-style:solid;
+  border-width:0 2em;
+  display:block;
+  height:0;
+  margin:10em auto;
+  opacity:0.4;
+  text-indent:-9999px;
+  transform-origin: 50% 50%;
+  width:0;
+}
+
+
+.up {
+  -webkit-animation: uparrow 0.6s infinite alternate ease-in-out;
+  border-bottom:2em solid white;
+  margin:2em auto;
+}
+.down {
+  -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
+  border-top:2em solid white;
+
+}
+
+.left{
+  -webkit-animation: leftarrow 0.6s infinite alternate ease-in-out;
+  border-bottom:2em solid white;
+}
+
+.right{
+  -webkit-animation: rightarrow 0.6s infinite alternate ease-in-out;
+  border-top:2em solid white;
+}
